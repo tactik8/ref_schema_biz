@@ -1,5 +1,7 @@
 
+# BrandVisualIdentity
 
+## Propertiee:
 @type: BrandVidualIdentity
 validFrom: date,
 validTo: date,
