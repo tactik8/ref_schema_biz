@@ -2,6 +2,7 @@
 # BrandVisualIdentity
 
 ## Properties:
+```
 @type: BrandVidualIdentity
 validFrom: date,
 validTo: date,
@@ -15,3 +16,4 @@ typographyH2FontFamily:
 typographyH2FontSize: 
 typographyBodyFontFamily:
 typographyBodyFontSize: 
+```
