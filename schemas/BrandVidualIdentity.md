@@ -1,4 +1,5 @@
 
+
 @type: BrandVidualIdentity
 validFrom: date,
 validTo: date,
