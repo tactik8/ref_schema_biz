@@ -9,8 +9,8 @@
 | brandCoreValues | Text | The Principles. The fundamental beliefs and guiding principles that dictate the brand's behavior, decision-making, and culture. They are non-negotiable standards. (e.g., Integrity, Innovation, Customer Focus). | 
 | brandStory | Text | The Narrative. The overarching, compelling narrative that connects the brand's history, purpose, values, and vision into a cohesive, emotional journey for the audience. | 
 | brandPersonality |  Text | The Character. A set of human characteristics and traits that the brand consistently expresses through its voice and visual identity. It dictates how the brand speaks and acts. (e.g., trustworthy, witty, rebellious, sincere). | 
-| primaryArchetype | BrandArchetypeType | The Main Identity. The dominant, universally recognizable symbolic pattern (e.g., The Hero, The Creator, The Innocent) that shapes the brand's deepest meaning and serves as the core of its personality. | 
-| secondaryeArchetype | BrandArchetypeType | The Supporting Role. A second, less dominant archetype that adds complexity and nuance to the brand's personality, helping it to be more distinctive and avoid being a cliché.  | 
+| primaryArchetype | BrandArchetypeType | The Main Identity. The dominant, Jung archetype (e.g., The Hero, The Creator, The Innocent) that shapes the brand's deepest meaning and serves as the core of its personality. | 
+| secondaryeArchetype | Text | The Supporting Role. A second, less dominant Jung archetype that adds complexity and nuance to the brand's personality, helping it to be more distinctive and avoid being a cliché.  | 
 | toneHumor | QuantitativeValue | The use of lightheartedness, jokes, or playfulness (humorous) versus a direct, earnest, or sober manner (serious). 1. Serious, 3. Neutral 5. Humoristic |
 | toneEnthusiasm | QuantitativeValue |The level of emotion or excitement conveyed. Does the brand use exclamation points and hype (enthusiastic), or does it stick to plain, objective statements (matter-of-fact)? 1. Matter-of-fact, 3.Neutral, 5. Enthusiastic  |
 | toneFormality | QuantitativeValue | The level of professionalism in language. Does the brand use contractions, slang, and an approachable style (casual), or proper grammar and a more distant approach (formal)? 1. Casual, 3.Neutral, 5. Formal  |
@@ -82,12 +82,12 @@
     "primaryArchetype": {
       "type": "string",
 "title": "The Main Identity",
- "description": "The dominant, universally recognizable symbolic pattern (e.g., The Hero, The Creator, The Innocent) that shapes the brand's deepest meaning and serves as the core of its personality.Archetypes: Innocent, Orphan/Regular Guy/Gal, Hero, Caregiver, Explorer, Rebel/Outlaw, Lover, Creator, Jester, Sage, Magician, Ruler."
+ "description": "The dominant, universally recognizable Jung archetype (e.g., The Hero, The Creator, The Innocent) that shapes the brand's deepest meaning and serves as the core of its personality.Archetypes: Innocent, Orphan/Regular Guy/Gal, Hero, Caregiver, Explorer, Rebel/Outlaw, Lover, Creator, Jester, Sage, Magician, Ruler."
     },
     "secondaryeArchetype": {
       "type": "string",
 "title": "The Supporting Role",
- "description": "A second, less dominant archetype that adds complexity and nuance to the brand's personality, helping it to be more distinctive and avoid being a cliché. Archetypes: Innocent, Orphan/Regular Guy/Gal, Hero, Caregiver, Explorer, Rebel/Outlaw, Lover, Creator, Jester, Sage, Magician, Ruler."
+ "description": "A second, less dominant Jung archetype that adds complexity and nuance to the brand's personality, helping it to be more distinctive and avoid being a cliché. Archetypes: Innocent, Orphan/Regular Guy/Gal, Hero, Caregiver, Explorer, Rebel/Outlaw, Lover, Creator, Jester, Sage, Magician, Ruler."
     },
     "toneHumor": {
       "type": "integer",
